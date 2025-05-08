@@ -1,0 +1,2 @@
+jdinhlife.gruvbox
+jnoortheen.nix-ide

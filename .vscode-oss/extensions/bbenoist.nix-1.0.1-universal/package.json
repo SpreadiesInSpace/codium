@@ -1,0 +1,49 @@
+{
+	"name": "Nix",
+	"description": "Nix language support for Visual Studio Code.",
+	"version": "1.0.1",
+	"publisher": "bbenoist",
+	"icon": "images/icon.png",
+	"galleryBanner": {
+		"color": "#FFFFFF",
+		"theme": "light"
+	},
+	"license": "SEE LICENSE IN LICENSE.md",
+	"bugs": {
+		"url": "https://github.com/bbenoist/vscode-nix/issues"
+	},
+	"homepage": "https://github.com/bbenoist/vscode-nix/blob/master/README.md",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/bbenoist/vscode-nix.git"
+	},
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"categories": [
+		"Languages"
+	],
+	"contributes": {
+		"languages": [
+			{
+				"id": "nix",
+				"extensions": [
+					".nix"
+				],
+				"configuration": "./nix.configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "nix",
+				"scopeName": "source.nix",
+				"path": "./syntaxes/nix.tmLanguage"
+			}
+		]
+	},
+	"__metadata": {
+		"installedTimestamp": 1746268498021,
+		"targetPlatform": "universal",
+		"size": 119469
+	}
+}
