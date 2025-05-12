@@ -1,0 +1,3 @@
+bbenoist.nix
+jdinhlife.gruvbox
+mads-hartmann.bash-ide-vscode
